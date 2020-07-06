@@ -22,9 +22,6 @@ class School
     @roster[grd]
   end 
   def sort
-    @roster.each do |k,v|
-      v = v.sort 
-    end 
-    @roster 
+    @roster.collect{|k,v| k.sort}
   end 
 end 
