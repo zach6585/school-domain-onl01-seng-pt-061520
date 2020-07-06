@@ -23,7 +23,7 @@ class School
   end 
   def sort
     a = @roster.sort_by{|k,v| k}
-    roster = {}
+    @roster = {}
     a.each do |a,b|
       @roster
   end 
