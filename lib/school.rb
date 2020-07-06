@@ -25,6 +25,8 @@ class School
     a = @roster.sort_by{|k,v| k}
     @roster = {}
     a.each do |a,b|
-      @roster
+      @roster[a] = b.sort 
+    end 
+    @roster
   end 
 end 
