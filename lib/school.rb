@@ -22,7 +22,7 @@ class School
     @roster[grd]
   end 
   def sort
-    @roster.sort_by{|k,v| k}
+    a = @roster.sort_by{|k,v| k}
     
   end 
 end 
